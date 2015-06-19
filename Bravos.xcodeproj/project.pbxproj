@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198F34021B342730000CBC78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 198F34011B342730000CBC78 /* main.m */; };
+		198F34051B342730000CBC78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 198F34041B342730000CBC78 /* AppDelegate.m */; };
+		198F34081B342730000CBC78 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198F34071B342730000CBC78 /* MasterViewController.m */; };
+		198F340B1B342730000CBC78 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 198F340A1B342730000CBC78 /* DetailViewController.m */; };
+		198F340E1B342730000CBC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198F340C1B342730000CBC78 /* Main.storyboard */; };
+		198F34101B342730000CBC78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198F340F1B342730000CBC78 /* Images.xcassets */; };
+		198F34131B342730000CBC78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 198F34111B342730000CBC78 /* LaunchScreen.xib */; };
+		198F341F1B342730000CBC78 /* BravosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 198F341E1B342730000CBC78 /* BravosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		198F34191B342730000CBC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 198F33F41B342730000CBC78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198F33FB1B342730000CBC78;
+			remoteInfo = Bravos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		198F33FC1B342730000CBC78 /* Bravos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bravos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		198F34001B342730000CBC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198F34011B342730000CBC78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		198F34031B342730000CBC78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		198F34041B342730000CBC78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		198F34061B342730000CBC78 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		198F34071B342730000CBC78 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		198F34091B342730000CBC78 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		198F340A1B342730000CBC78 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		198F340D1B342730000CBC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		198F340F1B342730000CBC78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		198F34121B342730000CBC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		198F34181B342730000CBC78 /* BravosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BravosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		198F341D1B342730000CBC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198F341E1B342730000CBC78 /* BravosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BravosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198F33F91B342730000CBC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198F34151B342730000CBC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198F33F31B342730000CBC78 = {
+			isa = PBXGroup;
+			children = (
+				198F33FE1B342730000CBC78 /* Bravos */,
+				198F341B1B342730000CBC78 /* BravosTests */,
+				198F33FD1B342730000CBC78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		198F33FD1B342730000CBC78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198F33FC1B342730000CBC78 /* Bravos.app */,
+				198F34181B342730000CBC78 /* BravosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198F33FE1B342730000CBC78 /* Bravos */ = {
+			isa = PBXGroup;
+			children = (
+				198F34031B342730000CBC78 /* AppDelegate.h */,
+				198F34041B342730000CBC78 /* AppDelegate.m */,
+				198F34061B342730000CBC78 /* MasterViewController.h */,
+				198F34071B342730000CBC78 /* MasterViewController.m */,
+				198F34091B342730000CBC78 /* DetailViewController.h */,
+				198F340A1B342730000CBC78 /* DetailViewController.m */,
+				198F340C1B342730000CBC78 /* Main.storyboard */,
+				198F340F1B342730000CBC78 /* Images.xcassets */,
+				198F34111B342730000CBC78 /* LaunchScreen.xib */,
+				198F33FF1B342730000CBC78 /* Supporting Files */,
+			);
+			path = Bravos;
+			sourceTree = "<group>";
+		};
+		198F33FF1B342730000CBC78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				198F34001B342730000CBC78 /* Info.plist */,
+				198F34011B342730000CBC78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		198F341B1B342730000CBC78 /* BravosTests */ = {
+			isa = PBXGroup;
+			children = (
+				198F341E1B342730000CBC78 /* BravosTests.m */,
+				198F341C1B342730000CBC78 /* Supporting Files */,
+			);
+			path = BravosTests;
+			sourceTree = "<group>";
+		};
+		198F341C1B342730000CBC78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				198F341D1B342730000CBC78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		198F33FB1B342730000CBC78 /* Bravos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198F34221B342730000CBC78 /* Build configuration list for PBXNativeTarget "Bravos" */;
+			buildPhases = (
+				198F33F81B342730000CBC78 /* Sources */,
+				198F33F91B342730000CBC78 /* Frameworks */,
+				198F33FA1B342730000CBC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bravos;
+			productName = Bravos;
+			productReference = 198F33FC1B342730000CBC78 /* Bravos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		198F34171B342730000CBC78 /* BravosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198F34251B342730000CBC78 /* Build configuration list for PBXNativeTarget "BravosTests" */;
+			buildPhases = (
+				198F34141B342730000CBC78 /* Sources */,
+				198F34151B342730000CBC78 /* Frameworks */,
+				198F34161B342730000CBC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				198F341A1B342730000CBC78 /* PBXTargetDependency */,
+			);
+			name = BravosTests;
+			productName = BravosTests;
+			productReference = 198F34181B342730000CBC78 /* BravosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		198F33F41B342730000CBC78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Bravos;
+				TargetAttributes = {
+					198F33FB1B342730000CBC78 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					198F34171B342730000CBC78 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 198F33FB1B342730000CBC78;
+					};
+				};
+			};
+			buildConfigurationList = 198F33F71B342730000CBC78 /* Build configuration list for PBXProject "Bravos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 198F33F31B342730000CBC78;
+			productRefGroup = 198F33FD1B342730000CBC78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				198F33FB1B342730000CBC78 /* Bravos */,
+				198F34171B342730000CBC78 /* BravosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		198F33FA1B342730000CBC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198F340E1B342730000CBC78 /* Main.storyboard in Resources */,
+				198F34131B342730000CBC78 /* LaunchScreen.xib in Resources */,
+				198F34101B342730000CBC78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198F34161B342730000CBC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198F33F81B342730000CBC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198F34051B342730000CBC78 /* AppDelegate.m in Sources */,
+				198F34081B342730000CBC78 /* MasterViewController.m in Sources */,
+				198F34021B342730000CBC78 /* main.m in Sources */,
+				198F340B1B342730000CBC78 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198F34141B342730000CBC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198F341F1B342730000CBC78 /* BravosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		198F341A1B342730000CBC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 198F33FB1B342730000CBC78 /* Bravos */;
+			targetProxy = 198F34191B342730000CBC78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		198F340C1B342730000CBC78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198F340D1B342730000CBC78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		198F34111B342730000CBC78 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198F34121B342730000CBC78 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		198F34201B342730000CBC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		198F34211B342730000CBC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		198F34231B342730000CBC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bravos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		198F34241B342730000CBC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bravos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		198F34261B342730000CBC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BravosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bravos.app/Bravos";
+			};
+			name = Debug;
+		};
+		198F34271B342730000CBC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BravosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bravos.app/Bravos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198F33F71B342730000CBC78 /* Build configuration list for PBXProject "Bravos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198F34201B342730000CBC78 /* Debug */,
+				198F34211B342730000CBC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		198F34221B342730000CBC78 /* Build configuration list for PBXNativeTarget "Bravos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198F34231B342730000CBC78 /* Debug */,
+				198F34241B342730000CBC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		198F34251B342730000CBC78 /* Build configuration list for PBXNativeTarget "BravosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198F34261B342730000CBC78 /* Debug */,
+				198F34271B342730000CBC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 198F33F41B342730000CBC78 /* Project object */;
+}
